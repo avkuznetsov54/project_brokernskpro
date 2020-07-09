@@ -101,10 +101,10 @@ class BusinessCenterAdmin(admin.ModelAdmin):
 
 @admin.register(CommercialEstate)
 class CommercialPremisesAdmin(admin.ModelAdmin):
-    list_display = ('id', 'address', 'district', 'area', 'is_sale', 'is_rent', 'is_active')
-    list_display_links = ('address',)
+    list_display = ('id', 'street', 'num_house', 'district', 'area', 'is_sale', 'is_rent', 'is_active')
+    list_display_links = ('id', 'street', 'num_house',)
     list_filter = ('is_active', 'is_sale', 'is_rent', 'district',)
-    search_fields = ("address",)
+    search_fields = ('street',)
     inlines = [ImagesCommercialPremisesInline, FloorPlansCommercialPremisesInline, VideoCommercialPremisesInline]
     save_on_top = True
     save_as = True
@@ -136,7 +136,8 @@ class CommercialPremisesAdmin(admin.ModelAdmin):
                        'region',
                        'city',
                        'district',
-                       'address',
+                       'street',
+                       'num_house',
                        'distance_to_metro',
                        'metro_stations',
                        'relative_location',

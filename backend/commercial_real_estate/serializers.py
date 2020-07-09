@@ -33,7 +33,8 @@ class CommercialEstateListSerializer(serializers.ModelSerializer):
     region = serializers.SlugRelatedField(slug_field='name', read_only=True)
     city = serializers.SlugRelatedField(slug_field='name', read_only=True)
     district = serializers.SlugRelatedField(slug_field='name', read_only=True)
-    address = serializers.SlugRelatedField(slug_field='name', read_only=True)
+    street = serializers.SlugRelatedField(slug_field='name', read_only=True)
+    num_house = serializers.SlugRelatedField(slug_field='name', read_only=True)
     business_center = serializers.SlugRelatedField(slug_field='name', read_only=True)
     residential_complex = serializers.SlugRelatedField(slug_field='name', read_only=True)
 
@@ -63,7 +64,8 @@ class CommercialEstateDetailSerializer(serializers.ModelSerializer):
     region = serializers.SlugRelatedField(slug_field='name', read_only=True)
     city = serializers.SlugRelatedField(slug_field='name', read_only=True)
     district = serializers.SlugRelatedField(slug_field='name', read_only=True)
-    address = serializers.SlugRelatedField(slug_field='name', read_only=True)
+    street = serializers.SlugRelatedField(slug_field='name', read_only=True)
+    num_house = serializers.SlugRelatedField(slug_field='name', read_only=True)
     business_center = serializers.SlugRelatedField(slug_field='name', read_only=True)
     residential_complex = serializers.SlugRelatedField(slug_field='name', read_only=True)
 

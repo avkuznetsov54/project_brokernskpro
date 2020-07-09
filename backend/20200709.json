@@ -1,0 +1,2507 @@
+[
+{
+    "model": "profile_user.specialization",
+    "pk": 1,
+    "fields": {
+        "name": "\u041a\u043e\u043c\u043c\u0435\u0440\u0447\u0435\u0441\u043a\u0430\u044f",
+        "short_name": "\u041a\u041c",
+        "description": ""
+    }
+},
+{
+    "model": "profile_user.specialization",
+    "pk": 2,
+    "fields": {
+        "name": "\u0416\u0438\u043b\u0430\u044f",
+        "short_name": "\u0416\u041b",
+        "description": ""
+    }
+},
+{
+    "model": "profile_user.user",
+    "pk": 3,
+    "fields": {
+        "is_superuser": true,
+        "email": "admin@admin.ru",
+        "password": "pbkdf2_sha256$180000$fJuGqwQWeCv2$PeYD0GnplWLk9DIK8G2ocUXa4sCeTfJqIFESDNRHSko=",
+        "full_name": "\u041a\u0443\u0437\u043d\u0435\u0446\u043e\u0432 \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 \u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440\u043e\u0432\u0438\u0447",
+        "phone_number": "9833131764",
+        "gender": "male",
+        "birth_date": "1988-07-29",
+        "bio": "",
+        "image": "images/users/2020/5/24/194127-943972-pp_500x500.jpg",
+        "image_thumb": "images/users/2020/5/24/194127-943972-pp_300x300.jpg",
+        "is_active": true,
+        "is_staff": true,
+        "date_joined": "2020-05-24T08:59:08Z",
+        "update_date": "2020-05-24T12:41:47.538Z",
+        "last_login": "2020-07-09T04:01:17.315Z",
+        "groups": [],
+        "user_permissions": [],
+        "job_title": [],
+        "specialization": [
+            2
+        ]
+    }
+},
+{
+    "model": "profile_user.user",
+    "pk": 4,
+    "fields": {
+        "is_superuser": false,
+        "email": "avkatlant@gmail.com",
+        "password": "pbkdf2_sha256$180000$Fl1oyhlmGLPd$Arhz5kZlRDeASb9ecYuD2zmxjt+FeeZAJ1IBohvBNFo=",
+        "full_name": "\u0410\u0442\u043b\u0430\u043d\u0442",
+        "phone_number": "9137893465",
+        "gender": "",
+        "birth_date": null,
+        "bio": "",
+        "image": "images/users/2020/5/24/172346-818812-grin-art-zhk_748x500.jpg",
+        "image_thumb": "images/users/2020/5/24/172346-818812-grin-art-zhk_449x300.jpg",
+        "is_active": true,
+        "is_staff": true,
+        "date_joined": "2020-05-24T08:59:25Z",
+        "update_date": "2020-05-24T12:42:02.856Z",
+        "last_login": "2020-05-24T09:04:04Z",
+        "groups": [],
+        "user_permissions": [],
+        "job_title": [],
+        "specialization": [
+            2,
+            1
+        ]
+    }
+},
+{
+    "model": "profile_user.user",
+    "pk": 6,
+    "fields": {
+        "is_superuser": false,
+        "email": "avkuznetsov54@gmail.com",
+        "password": "pbkdf2_sha256$180000$47Ini2ogoheI$WwNAB9Th2PzeZaLJ1dD2Ovr2ICyrHBBsmO5b78QqaGk=",
+        "full_name": null,
+        "phone_number": "",
+        "gender": "",
+        "birth_date": null,
+        "bio": "",
+        "image": "",
+        "image_thumb": "",
+        "is_active": true,
+        "is_staff": false,
+        "date_joined": "2020-05-25T01:31:46.597Z",
+        "update_date": "2020-05-25T01:32:48.400Z",
+        "last_login": null,
+        "groups": [],
+        "user_permissions": [],
+        "job_title": [],
+        "specialization": []
+    }
+},
+{
+    "model": "commercial_real_estate.businesscategory",
+    "pk": 1,
+    "fields": {
+        "name": "\u041e\u0431\u0449\u0435\u043f\u0438\u0442",
+        "description": ""
+    }
+},
+{
+    "model": "commercial_real_estate.businesscategory",
+    "pk": 2,
+    "fields": {
+        "name": "\u041a\u0440\u0430\u0441\u043e\u0442\u0430",
+        "description": ""
+    }
+},
+{
+    "model": "commercial_real_estate.businesscategory",
+    "pk": 3,
+    "fields": {
+        "name": "\u0417\u0434\u043e\u0440\u043e\u0432\u044c\u0435",
+        "description": ""
+    }
+},
+{
+    "model": "commercial_real_estate.businesscategory",
+    "pk": 4,
+    "fields": {
+        "name": "\u0423\u0441\u043b\u0443\u0433\u0438",
+        "description": ""
+    }
+},
+{
+    "model": "commercial_real_estate.businesscategory",
+    "pk": 6,
+    "fields": {
+        "name": "\u041f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432\u043e",
+        "description": ""
+    }
+},
+{
+    "model": "commercial_real_estate.businesscategory",
+    "pk": 7,
+    "fields": {
+        "name": "\u041e\u0442\u0434\u044b\u0445",
+        "description": ""
+    }
+},
+{
+    "model": "commercial_real_estate.businesscategory",
+    "pk": 8,
+    "fields": {
+        "name": "\u0421\u0435\u043b\u044c\u0441\u043a\u043e\u0435 \u0445\u043e\u0437\u044f\u0439\u0441\u0442\u0432\u043e",
+        "description": ""
+    }
+},
+{
+    "model": "commercial_real_estate.typecommercialestate",
+    "pk": 1,
+    "fields": {
+        "name": "\u0421\u0432\u043e\u0431\u043e\u0434\u043d\u043e\u0433\u043e \u041d\u0430\u0437\u043d\u0430\u0447\u0435\u043d\u0438\u044f",
+        "description": ""
+    }
+},
+{
+    "model": "commercial_real_estate.typecommercialestate",
+    "pk": 2,
+    "fields": {
+        "name": "\u041e\u0444\u0438\u0441\u043d\u044b\u0435",
+        "description": ""
+    }
+},
+{
+    "model": "commercial_real_estate.typecommercialestate",
+    "pk": 3,
+    "fields": {
+        "name": "\u0421\u043a\u043b\u0430\u0434\u0441\u043a\u0438\u0435",
+        "description": ""
+    }
+},
+{
+    "model": "commercial_real_estate.typecommercialestate",
+    "pk": 4,
+    "fields": {
+        "name": "\u0422\u043e\u0440\u0433\u043e\u0432\u044b\u0435",
+        "description": ""
+    }
+},
+{
+    "model": "commercial_real_estate.typecommercialestate",
+    "pk": 5,
+    "fields": {
+        "name": "\u041f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432\u043e",
+        "description": ""
+    }
+},
+{
+    "model": "commercial_real_estate.typecommercialestate",
+    "pk": 6,
+    "fields": {
+        "name": "\u0417\u0435\u043c\u0435\u043b\u044c\u043d\u044b\u0439 \u0443\u0447\u0430\u0441\u0442\u043e\u043a",
+        "description": ""
+    }
+},
+{
+    "model": "commercial_real_estate.typecommercialestate",
+    "pk": 7,
+    "fields": {
+        "name": "\u0416\u0438\u043b\u044b\u0435 \u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0441\u044b",
+        "description": ""
+    }
+},
+{
+    "model": "commercial_real_estate.typecommercialestate",
+    "pk": 8,
+    "fields": {
+        "name": "\u0414\u043e\u0445\u043e\u0434\u043d\u0430\u044f \u043d\u0435\u0434\u0432\u0438\u0436\u0438\u043c\u043e\u0441\u0442\u044c",
+        "description": ""
+    }
+},
+{
+    "model": "commercial_real_estate.cookerhood",
+    "pk": 1,
+    "fields": {
+        "name": "\u041f\u0440\u0438\u0442\u043e\u0447\u043d\u043e-\u0432\u044b\u0442\u044f\u0436\u043d\u0430\u044f \u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u0432\u0435\u043d\u0442\u0438\u043b\u044f\u0446\u0438\u0438",
+        "description": ""
+    }
+},
+{
+    "model": "commercial_real_estate.cookerhood",
+    "pk": 2,
+    "fields": {
+        "name": "\u0426\u0435\u043d\u0442\u0440\u0430\u043b\u044c\u043d\u0430\u044f \u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u043a\u043e\u043d\u0434\u0438\u0446\u0438\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f",
+        "description": ""
+    }
+},
+{
+    "model": "commercial_real_estate.cookerhood",
+    "pk": 3,
+    "fields": {
+        "name": "\u041e\u0431\u0449\u0435\u0434\u043e\u043c\u043e\u0432\u0430\u044f",
+        "description": ""
+    }
+},
+{
+    "model": "commercial_real_estate.typeentrancetocommercialestate",
+    "pk": 1,
+    "fields": {
+        "name": "\u041e\u0442\u0434\u0435\u043b\u044c\u043d\u044b\u0439 \u0432\u0445\u043e\u0434",
+        "description": ""
+    }
+},
+{
+    "model": "commercial_real_estate.typeentrancetocommercialestate",
+    "pk": 2,
+    "fields": {
+        "name": "\u041e\u0431\u0449\u0438\u0439 \u0432\u0445\u043e\u0434",
+        "description": ""
+    }
+},
+{
+    "model": "commercial_real_estate.typeentrancetocommercialestate",
+    "pk": 3,
+    "fields": {
+        "name": "\u041d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u043e \u0432\u0445\u043e\u0434\u043e\u0432 \u0438 \u0432\u044b\u0445\u043e\u0434\u043e\u0432",
+        "description": ""
+    }
+},
+{
+    "model": "commercial_real_estate.communicationsystems",
+    "pk": 1,
+    "fields": {
+        "name": "\u0421\u0432\u0435\u0442",
+        "description": ""
+    }
+},
+{
+    "model": "commercial_real_estate.communicationsystems",
+    "pk": 2,
+    "fields": {
+        "name": "\u041e\u0442\u043e\u043f\u043b\u0435\u043d\u0438\u0435",
+        "description": ""
+    }
+},
+{
+    "model": "commercial_real_estate.communicationsystems",
+    "pk": 3,
+    "fields": {
+        "name": "\u0412\u043e\u0434\u0430",
+        "description": ""
+    }
+},
+{
+    "model": "commercial_real_estate.communicationsystems",
+    "pk": 4,
+    "fields": {
+        "name": "\u0412\u0441\u0435 \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u043a\u043e\u043c\u043c\u0443\u043d\u0438\u043a\u0430\u0446\u0438\u0439",
+        "description": ""
+    }
+},
+{
+    "model": "commercial_real_estate.communicationsystems",
+    "pk": 5,
+    "fields": {
+        "name": "\u0413\u0430\u0437",
+        "description": ""
+    }
+},
+{
+    "model": "commercial_real_estate.communicationsystems",
+    "pk": 6,
+    "fields": {
+        "name": "\u041f\u043e\u0436\u0430\u0440\u043d\u0430\u044f \u0441\u0438\u0433\u043d\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u044f",
+        "description": ""
+    }
+},
+{
+    "model": "commercial_real_estate.communicationsystems",
+    "pk": 7,
+    "fields": {
+        "name": "\u0418\u043d\u0442\u0435\u0440\u043d\u0435\u0442",
+        "description": ""
+    }
+},
+{
+    "model": "commercial_real_estate.communicationsystems",
+    "pk": 8,
+    "fields": {
+        "name": "\u041a\u043e\u043d\u0434\u0438\u0446\u0438\u043e\u043d\u0435\u0440",
+        "description": ""
+    }
+},
+{
+    "model": "commercial_real_estate.relativelocation",
+    "pk": 1,
+    "fields": {
+        "name": "1-\u044f \u043b\u0438\u043d\u0438\u044f",
+        "description": ""
+    }
+},
+{
+    "model": "commercial_real_estate.relativelocation",
+    "pk": 2,
+    "fields": {
+        "name": "2-\u044f \u043b\u0438\u043d\u0438\u044f",
+        "description": ""
+    }
+},
+{
+    "model": "commercial_real_estate.relativelocation",
+    "pk": 3,
+    "fields": {
+        "name": "\u041e\u0442\u0434\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u043e\u044f\u0449\u0435\u0435 \u0437\u0434\u0430\u043d\u0438\u044f",
+        "description": ""
+    }
+},
+{
+    "model": "commercial_real_estate.relativelocation",
+    "pk": 4,
+    "fields": {
+        "name": "\u0411\u0438\u0437\u043d\u0435\u0441 \u0446\u0435\u043d\u0442\u0440",
+        "description": ""
+    }
+},
+{
+    "model": "commercial_real_estate.relativelocation",
+    "pk": 5,
+    "fields": {
+        "name": "\u0412 \u0436\u0438\u043b\u043e\u043c \u0434\u043e\u043c\u0435",
+        "description": ""
+    }
+},
+{
+    "model": "commercial_real_estate.relativelocation",
+    "pk": 6,
+    "fields": {
+        "name": "\u0412 \u0442\u043e\u0440\u0433\u043e\u0432\u043e\u043c \u0446\u0435\u043d\u0442\u0440\u0435",
+        "description": ""
+    }
+},
+{
+    "model": "commercial_real_estate.finishingproperty",
+    "pk": 1,
+    "fields": {
+        "name": "\u0421 \u0440\u0435\u043c\u043e\u043d\u0442\u043e\u043c",
+        "description": ""
+    }
+},
+{
+    "model": "commercial_real_estate.finishingproperty",
+    "pk": 2,
+    "fields": {
+        "name": "\u0411\u0435\u0437 \u0440\u0435\u043c\u043e\u043d\u0442\u0430",
+        "description": ""
+    }
+},
+{
+    "model": "commercial_real_estate.purchasemethod",
+    "pk": 1,
+    "fields": {
+        "name": "\u041d\u0430\u043b\u0438\u0447\u043d\u044b\u0435",
+        "description": ""
+    }
+},
+{
+    "model": "commercial_real_estate.purchasemethod",
+    "pk": 2,
+    "fields": {
+        "name": "\u0418\u043f\u043e\u0442\u0435\u043a\u0430",
+        "description": ""
+    }
+},
+{
+    "model": "commercial_real_estate.purchasemethod",
+    "pk": 3,
+    "fields": {
+        "name": "\u0420\u0430\u0441\u0441\u0440\u043e\u0447\u043a\u0430",
+        "description": ""
+    }
+},
+{
+    "model": "commercial_real_estate.purchasemethod",
+    "pk": 4,
+    "fields": {
+        "name": "\u041e\u0442\u0441\u0440\u043e\u0447\u043a\u0430",
+        "description": ""
+    }
+},
+{
+    "model": "commercial_real_estate.businesscenter",
+    "pk": 1,
+    "fields": {
+        "name": "\u0422\u0435\u0441\u0442 \u0411\u0438\u0437\u043d\u0435\u0441 \u0446\u0435\u043d\u0442\u0440 1",
+        "description": ""
+    }
+},
+{
+    "model": "commercial_real_estate.commercialestate",
+    "pk": 1,
+    "fields": {
+        "is_active": true,
+        "is_group_multiple_objs": false,
+        "use_contacts_fixed_agent": false,
+        "cost_service": null,
+        "is_sale": false,
+        "is_rent": true,
+        "area": 1245.0,
+        "min_area": 232.0,
+        "max_area": 1434.0,
+        "ground_floor": true,
+        "basement": true,
+        "number_of_storeys": 24,
+        "several_floors": true,
+        "region": 1,
+        "city": 1,
+        "district": 4,
+        "address": 5,
+        "distance_to_metro": 400,
+        "business_center": null,
+        "residential_complex": 1,
+        "building_commercial_estate": false,
+        "finished_commercial_estate": true,
+        "rent_price_sq_m": 6000,
+        "rent_price_month": 60000,
+        "cost_of_sale": null,
+        "min_cost_of_sale": null,
+        "max_cost_of_sale": null,
+        "min_payback": null,
+        "max_payback": null,
+        "min_average_rental_rate": null,
+        "max_average_rental_rate": null,
+        "possible_income": null,
+        "year_construction": null,
+        "kw": null,
+        "min_kw": null,
+        "max_kw": null,
+        "comment_kw": "",
+        "ceiling_height": null,
+        "min_ceiling_height": null,
+        "max_ceiling_height": null,
+        "comment_ceiling_height": "",
+        "parking": false,
+        "min_parking": null,
+        "max_parking": null,
+        "comment_parking": "",
+        "main_image": "images/realestate/2020/5/25/85347-724859-kukukuk-chychychy_511x500.jpg",
+        "alt_attr": "\u043a\u0443\u043a\u0443\u043a\u0443\u043a-\u0447\u044b\u0447\u044b\u0447\u044b",
+        "main_image_thumb": "images/realestate/2020/5/25/85347-724859-kukukuk-chychychy_307x300.jpg",
+        "longitude": null,
+        "latitude": null,
+        "description": "",
+        "fixed_agent": [
+            3
+        ],
+        "floor": [
+            5,
+            6,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+        ],
+        "metro_stations": [
+            11,
+            9
+        ],
+        "relative_location": [
+            1
+        ],
+        "type_commercial_estate": [
+            7,
+            6,
+            2,
+            5,
+            1,
+            3
+        ],
+        "business_category": [
+            3,
+            2
+        ],
+        "purchase_method": [
+            3
+        ],
+        "finishing_property": [],
+        "communication_systems": [
+            3,
+            5
+        ],
+        "cooker_hood": [
+            3
+        ],
+        "type_entrance": [
+            1
+        ]
+    }
+},
+{
+    "model": "commercial_real_estate.commercialestate",
+    "pk": 2,
+    "fields": {
+        "is_active": true,
+        "is_group_multiple_objs": false,
+        "use_contacts_fixed_agent": false,
+        "cost_service": null,
+        "is_sale": true,
+        "is_rent": false,
+        "area": 1245.0,
+        "min_area": null,
+        "max_area": null,
+        "ground_floor": false,
+        "basement": false,
+        "number_of_storeys": 24,
+        "several_floors": true,
+        "region": 1,
+        "city": 1,
+        "district": 4,
+        "address": 7,
+        "distance_to_metro": 400,
+        "business_center": null,
+        "residential_complex": 1,
+        "building_commercial_estate": false,
+        "finished_commercial_estate": true,
+        "rent_price_sq_m": null,
+        "rent_price_month": null,
+        "cost_of_sale": 21700000,
+        "min_cost_of_sale": null,
+        "max_cost_of_sale": null,
+        "min_payback": null,
+        "max_payback": null,
+        "min_average_rental_rate": null,
+        "max_average_rental_rate": null,
+        "possible_income": null,
+        "year_construction": null,
+        "kw": null,
+        "min_kw": null,
+        "max_kw": null,
+        "comment_kw": "",
+        "ceiling_height": null,
+        "min_ceiling_height": null,
+        "max_ceiling_height": null,
+        "comment_ceiling_height": "",
+        "parking": false,
+        "min_parking": null,
+        "max_parking": null,
+        "comment_parking": "",
+        "main_image": "images/realestate/2020/6/1/145516-673140-kukukuk-chychychy_686x500.jpg",
+        "alt_attr": "\u043a\u0443\u043a\u0443\u043a\u0443\u043a-\u0447\u044b\u0447\u044b\u0447\u044b",
+        "main_image_thumb": "images/realestate/2020/6/1/145516-673140-kukukuk-chychychy_411x300.jpg",
+        "longitude": null,
+        "latitude": null,
+        "description": "",
+        "fixed_agent": [
+            4
+        ],
+        "floor": [
+            5,
+            6
+        ],
+        "metro_stations": [
+            11,
+            9
+        ],
+        "relative_location": [
+            1
+        ],
+        "type_commercial_estate": [
+            2,
+            3
+        ],
+        "business_category": [
+            3,
+            2
+        ],
+        "purchase_method": [
+            4
+        ],
+        "finishing_property": [],
+        "communication_systems": [
+            3,
+            5
+        ],
+        "cooker_hood": [
+            3
+        ],
+        "type_entrance": [
+            1
+        ]
+    }
+},
+{
+    "model": "commercial_real_estate.commercialestate",
+    "pk": 3,
+    "fields": {
+        "is_active": true,
+        "is_group_multiple_objs": false,
+        "use_contacts_fixed_agent": false,
+        "cost_service": null,
+        "is_sale": true,
+        "is_rent": true,
+        "area": 302.0,
+        "min_area": null,
+        "max_area": null,
+        "ground_floor": false,
+        "basement": true,
+        "number_of_storeys": null,
+        "several_floors": false,
+        "region": 1,
+        "city": 1,
+        "district": 10,
+        "address": 6,
+        "distance_to_metro": null,
+        "business_center": 1,
+        "residential_complex": null,
+        "building_commercial_estate": false,
+        "finished_commercial_estate": false,
+        "rent_price_sq_m": 43434,
+        "rent_price_month": 43434,
+        "cost_of_sale": 55000000,
+        "min_cost_of_sale": null,
+        "max_cost_of_sale": null,
+        "min_payback": null,
+        "max_payback": null,
+        "min_average_rental_rate": null,
+        "max_average_rental_rate": null,
+        "possible_income": null,
+        "year_construction": null,
+        "kw": null,
+        "min_kw": null,
+        "max_kw": null,
+        "comment_kw": "",
+        "ceiling_height": null,
+        "min_ceiling_height": null,
+        "max_ceiling_height": null,
+        "comment_ceiling_height": "",
+        "parking": false,
+        "min_parking": null,
+        "max_parking": null,
+        "comment_parking": "",
+        "main_image": "images/realestate/2020/6/9/165652-928313-commerce-estate-image_667x500.jpg",
+        "alt_attr": "",
+        "main_image_thumb": "images/realestate/2020/6/9/165652-928313-commerce-estate-image_400x300.jpg",
+        "longitude": null,
+        "latitude": null,
+        "description": "",
+        "fixed_agent": [],
+        "floor": [],
+        "metro_stations": [],
+        "relative_location": [],
+        "type_commercial_estate": [
+            5
+        ],
+        "business_category": [],
+        "purchase_method": [
+            1
+        ],
+        "finishing_property": [],
+        "communication_systems": [],
+        "cooker_hood": [],
+        "type_entrance": []
+    }
+},
+{
+    "model": "commercial_real_estate.commercialestate",
+    "pk": 4,
+    "fields": {
+        "is_active": true,
+        "is_group_multiple_objs": true,
+        "use_contacts_fixed_agent": false,
+        "cost_service": null,
+        "is_sale": true,
+        "is_rent": false,
+        "area": 1245.0,
+        "min_area": 232.0,
+        "max_area": 1434.0,
+        "ground_floor": true,
+        "basement": true,
+        "number_of_storeys": 24,
+        "several_floors": true,
+        "region": 1,
+        "city": 1,
+        "district": 4,
+        "address": 10,
+        "distance_to_metro": 400,
+        "business_center": null,
+        "residential_complex": 1,
+        "building_commercial_estate": false,
+        "finished_commercial_estate": true,
+        "rent_price_sq_m": 6000,
+        "rent_price_month": 60000,
+        "cost_of_sale": null,
+        "min_cost_of_sale": 23500000,
+        "max_cost_of_sale": 37600000,
+        "min_payback": null,
+        "max_payback": null,
+        "min_average_rental_rate": null,
+        "max_average_rental_rate": null,
+        "possible_income": null,
+        "year_construction": null,
+        "kw": null,
+        "min_kw": null,
+        "max_kw": null,
+        "comment_kw": "",
+        "ceiling_height": null,
+        "min_ceiling_height": null,
+        "max_ceiling_height": null,
+        "comment_ceiling_height": "",
+        "parking": false,
+        "min_parking": null,
+        "max_parking": null,
+        "comment_parking": "",
+        "main_image": "",
+        "alt_attr": "\u043a\u0443\u043a\u0443\u043a\u0443\u043a-\u0447\u044b\u0447\u044b\u0447\u044b",
+        "main_image_thumb": "",
+        "longitude": null,
+        "latitude": null,
+        "description": "",
+        "fixed_agent": [
+            3
+        ],
+        "floor": [
+            5,
+            6,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+        ],
+        "metro_stations": [
+            11,
+            9
+        ],
+        "relative_location": [
+            1
+        ],
+        "type_commercial_estate": [
+            4
+        ],
+        "business_category": [
+            3,
+            2
+        ],
+        "purchase_method": [
+            2
+        ],
+        "finishing_property": [],
+        "communication_systems": [
+            3,
+            5
+        ],
+        "cooker_hood": [
+            3
+        ],
+        "type_entrance": [
+            1
+        ]
+    }
+},
+{
+    "model": "commercial_real_estate.commercialestate",
+    "pk": 5,
+    "fields": {
+        "is_active": true,
+        "is_group_multiple_objs": true,
+        "use_contacts_fixed_agent": false,
+        "cost_service": null,
+        "is_sale": true,
+        "is_rent": false,
+        "area": 1245.0,
+        "min_area": 232.0,
+        "max_area": 1434.0,
+        "ground_floor": true,
+        "basement": true,
+        "number_of_storeys": 24,
+        "several_floors": true,
+        "region": 1,
+        "city": 1,
+        "district": 4,
+        "address": 9,
+        "distance_to_metro": 400,
+        "business_center": null,
+        "residential_complex": 1,
+        "building_commercial_estate": false,
+        "finished_commercial_estate": true,
+        "rent_price_sq_m": 6000,
+        "rent_price_month": 60000,
+        "cost_of_sale": null,
+        "min_cost_of_sale": 35000000,
+        "max_cost_of_sale": 50000000,
+        "min_payback": null,
+        "max_payback": null,
+        "min_average_rental_rate": null,
+        "max_average_rental_rate": null,
+        "possible_income": null,
+        "year_construction": null,
+        "kw": null,
+        "min_kw": null,
+        "max_kw": null,
+        "comment_kw": "",
+        "ceiling_height": null,
+        "min_ceiling_height": null,
+        "max_ceiling_height": null,
+        "comment_ceiling_height": "",
+        "parking": false,
+        "min_parking": null,
+        "max_parking": null,
+        "comment_parking": "",
+        "main_image": "",
+        "alt_attr": "\u043a\u0443\u043a\u0443\u043a\u0443\u043a-\u0447\u044b\u0447\u044b\u0447\u044b",
+        "main_image_thumb": "",
+        "longitude": null,
+        "latitude": null,
+        "description": "",
+        "fixed_agent": [
+            3
+        ],
+        "floor": [
+            5,
+            6,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+        ],
+        "metro_stations": [
+            6
+        ],
+        "relative_location": [
+            4
+        ],
+        "type_commercial_estate": [
+            8
+        ],
+        "business_category": [
+            7
+        ],
+        "purchase_method": [
+            4,
+            3
+        ],
+        "finishing_property": [
+            1
+        ],
+        "communication_systems": [
+            4
+        ],
+        "cooker_hood": [
+            1
+        ],
+        "type_entrance": [
+            3
+        ]
+    }
+},
+{
+    "model": "commercial_real_estate.commercialestate",
+    "pk": 6,
+    "fields": {
+        "is_active": true,
+        "is_group_multiple_objs": false,
+        "use_contacts_fixed_agent": false,
+        "cost_service": null,
+        "is_sale": true,
+        "is_rent": false,
+        "area": 1245.0,
+        "min_area": null,
+        "max_area": null,
+        "ground_floor": false,
+        "basement": false,
+        "number_of_storeys": 24,
+        "several_floors": true,
+        "region": 1,
+        "city": 1,
+        "district": 4,
+        "address": 7,
+        "distance_to_metro": 400,
+        "business_center": null,
+        "residential_complex": 1,
+        "building_commercial_estate": false,
+        "finished_commercial_estate": true,
+        "rent_price_sq_m": null,
+        "rent_price_month": null,
+        "cost_of_sale": 12000000,
+        "min_cost_of_sale": null,
+        "max_cost_of_sale": null,
+        "min_payback": null,
+        "max_payback": null,
+        "min_average_rental_rate": null,
+        "max_average_rental_rate": null,
+        "possible_income": null,
+        "year_construction": null,
+        "kw": null,
+        "min_kw": null,
+        "max_kw": null,
+        "comment_kw": "",
+        "ceiling_height": null,
+        "min_ceiling_height": null,
+        "max_ceiling_height": null,
+        "comment_ceiling_height": "",
+        "parking": false,
+        "min_parking": null,
+        "max_parking": null,
+        "comment_parking": "",
+        "main_image": "",
+        "alt_attr": "\u043a\u0443\u043a\u0443\u043a\u0443\u043a-\u0447\u044b\u0447\u044b\u0447\u044b",
+        "main_image_thumb": "",
+        "longitude": null,
+        "latitude": null,
+        "description": "",
+        "fixed_agent": [
+            4
+        ],
+        "floor": [
+            5,
+            6
+        ],
+        "metro_stations": [
+            11,
+            9
+        ],
+        "relative_location": [
+            1
+        ],
+        "type_commercial_estate": [
+            2,
+            3
+        ],
+        "business_category": [
+            3,
+            2
+        ],
+        "purchase_method": [
+            4
+        ],
+        "finishing_property": [],
+        "communication_systems": [
+            3,
+            5
+        ],
+        "cooker_hood": [
+            3
+        ],
+        "type_entrance": [
+            1
+        ]
+    }
+},
+{
+    "model": "commercial_real_estate.commercialestate",
+    "pk": 7,
+    "fields": {
+        "is_active": true,
+        "is_group_multiple_objs": true,
+        "use_contacts_fixed_agent": false,
+        "cost_service": null,
+        "is_sale": true,
+        "is_rent": false,
+        "area": 1245.0,
+        "min_area": 232.0,
+        "max_area": 1434.0,
+        "ground_floor": true,
+        "basement": true,
+        "number_of_storeys": 24,
+        "several_floors": true,
+        "region": 1,
+        "city": 1,
+        "district": 4,
+        "address": 9,
+        "distance_to_metro": 400,
+        "business_center": null,
+        "residential_complex": 1,
+        "building_commercial_estate": false,
+        "finished_commercial_estate": true,
+        "rent_price_sq_m": 6000,
+        "rent_price_month": 60000,
+        "cost_of_sale": null,
+        "min_cost_of_sale": 75000000,
+        "max_cost_of_sale": 85000000,
+        "min_payback": null,
+        "max_payback": null,
+        "min_average_rental_rate": null,
+        "max_average_rental_rate": null,
+        "possible_income": null,
+        "year_construction": null,
+        "kw": null,
+        "min_kw": null,
+        "max_kw": null,
+        "comment_kw": "",
+        "ceiling_height": null,
+        "min_ceiling_height": null,
+        "max_ceiling_height": null,
+        "comment_ceiling_height": "",
+        "parking": false,
+        "min_parking": null,
+        "max_parking": null,
+        "comment_parking": "",
+        "main_image": "",
+        "alt_attr": "\u043a\u0443\u043a\u0443\u043a\u0443\u043a-\u0447\u044b\u0447\u044b\u0447\u044b",
+        "main_image_thumb": "",
+        "longitude": null,
+        "latitude": null,
+        "description": "",
+        "fixed_agent": [
+            3
+        ],
+        "floor": [
+            5,
+            6,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+        ],
+        "metro_stations": [
+            6
+        ],
+        "relative_location": [
+            4
+        ],
+        "type_commercial_estate": [
+            8
+        ],
+        "business_category": [
+            7
+        ],
+        "purchase_method": [
+            4,
+            3
+        ],
+        "finishing_property": [
+            1
+        ],
+        "communication_systems": [
+            4
+        ],
+        "cooker_hood": [
+            1
+        ],
+        "type_entrance": [
+            3
+        ]
+    }
+},
+{
+    "model": "commercial_real_estate.commercialestate",
+    "pk": 8,
+    "fields": {
+        "is_active": true,
+        "is_group_multiple_objs": false,
+        "use_contacts_fixed_agent": false,
+        "cost_service": null,
+        "is_sale": true,
+        "is_rent": false,
+        "area": 1245.0,
+        "min_area": 232.0,
+        "max_area": 1434.0,
+        "ground_floor": false,
+        "basement": false,
+        "number_of_storeys": 24,
+        "several_floors": false,
+        "region": 1,
+        "city": 1,
+        "district": 9,
+        "address": 11,
+        "distance_to_metro": 400,
+        "business_center": null,
+        "residential_complex": null,
+        "building_commercial_estate": false,
+        "finished_commercial_estate": true,
+        "rent_price_sq_m": null,
+        "rent_price_month": null,
+        "cost_of_sale": 44000000,
+        "min_cost_of_sale": null,
+        "max_cost_of_sale": null,
+        "min_payback": null,
+        "max_payback": null,
+        "min_average_rental_rate": null,
+        "max_average_rental_rate": null,
+        "possible_income": null,
+        "year_construction": null,
+        "kw": null,
+        "min_kw": null,
+        "max_kw": null,
+        "comment_kw": "",
+        "ceiling_height": null,
+        "min_ceiling_height": null,
+        "max_ceiling_height": null,
+        "comment_ceiling_height": "",
+        "parking": false,
+        "min_parking": null,
+        "max_parking": null,
+        "comment_parking": "",
+        "main_image": "",
+        "alt_attr": "\u043a\u0443\u043a\u0443\u043a\u0443\u043a-\u0447\u044b\u0447\u044b\u0447\u044b",
+        "main_image_thumb": "",
+        "longitude": null,
+        "latitude": null,
+        "description": "",
+        "fixed_agent": [
+            3
+        ],
+        "floor": [
+            5
+        ],
+        "metro_stations": [
+            8
+        ],
+        "relative_location": [
+            1,
+            3
+        ],
+        "type_commercial_estate": [
+            8
+        ],
+        "business_category": [
+            7
+        ],
+        "purchase_method": [
+            4,
+            3
+        ],
+        "finishing_property": [
+            1
+        ],
+        "communication_systems": [
+            4
+        ],
+        "cooker_hood": [
+            1
+        ],
+        "type_entrance": [
+            3
+        ]
+    }
+},
+{
+    "model": "commercial_real_estate.imagescommercialestate",
+    "pk": 1,
+    "fields": {
+        "alt_attr": "\u043a\u0443\u043a\u0443\u043c\u0431\u0435\u0440_\u043f\u0440\u0438\u0432\u0435\u0442",
+        "image": "images/realestate/2020/5/25/91347-626475-kukumber-privet_888x500.png",
+        "image_thumb": "images/realestate/2020/5/25/91347-626475-kukumber-privet_532x300.png",
+        "commercial_estate": 1
+    }
+},
+{
+    "model": "commercial_real_estate.imagescommercialestate",
+    "pk": 3,
+    "fields": {
+        "alt_attr": "",
+        "image": "images/realestate/2020/6/9/14656-809296-commerce-estate-image_748x500.jpg",
+        "image_thumb": "images/realestate/2020/6/9/14656-809296-commerce-estate-image_449x300.jpg",
+        "commercial_estate": 1
+    }
+},
+{
+    "model": "commercial_real_estate.imagescommercialestate",
+    "pk": 4,
+    "fields": {
+        "alt_attr": "",
+        "image": "images/realestate/2020/6/9/165741-374312-commerce-estate-image_769x500.jpg",
+        "image_thumb": "images/realestate/2020/6/9/165741-374312-commerce-estate-image_461x300.jpg",
+        "commercial_estate": 3
+    }
+},
+{
+    "model": "commercial_real_estate.imagescommercialestate",
+    "pk": 5,
+    "fields": {
+        "alt_attr": "",
+        "image": "images/realestate/2020/6/10/133346-776348-commerce-estate-image_1476x500.jpg",
+        "image_thumb": "images/realestate/2020/6/10/133346-776348-commerce-estate-image_885x300.jpg",
+        "commercial_estate": 1
+    }
+},
+{
+    "model": "commercial_real_estate.imagescommercialestate",
+    "pk": 6,
+    "fields": {
+        "alt_attr": "",
+        "image": "images/realestate/2020/6/10/181848-318281-commerce-estate-image_686x500.jpg",
+        "image_thumb": "images/realestate/2020/6/10/181848-318281-commerce-estate-image_411x300.jpg",
+        "commercial_estate": 1
+    }
+},
+{
+    "model": "commercial_real_estate.imagescommercialestate",
+    "pk": 7,
+    "fields": {
+        "alt_attr": "\u043a\u0443\u043a\u0443\u043c\u0431\u0435\u0440_\u043f\u0440\u0438\u0432\u0435\u0442",
+        "image": "",
+        "image_thumb": "",
+        "commercial_estate": 4
+    }
+},
+{
+    "model": "commercial_real_estate.imagescommercialestate",
+    "pk": 8,
+    "fields": {
+        "alt_attr": "\u043a\u0443\u043a\u0443\u043c\u0431\u0435\u0440_\u043f\u0440\u0438\u0432\u0435\u0442",
+        "image": "",
+        "image_thumb": "",
+        "commercial_estate": 5
+    }
+},
+{
+    "model": "commercial_real_estate.imagescommercialestate",
+    "pk": 9,
+    "fields": {
+        "alt_attr": "\u043a\u0443\u043a\u0443\u043c\u0431\u0435\u0440_\u043f\u0440\u0438\u0432\u0435\u0442",
+        "image": "",
+        "image_thumb": "",
+        "commercial_estate": 7
+    }
+},
+{
+    "model": "commercial_real_estate.imagescommercialestate",
+    "pk": 10,
+    "fields": {
+        "alt_attr": "\u043a\u0443\u043a\u0443\u043c\u0431\u0435\u0440_\u043f\u0440\u0438\u0432\u0435\u0442",
+        "image": "",
+        "image_thumb": "",
+        "commercial_estate": 8
+    }
+},
+{
+    "model": "commercial_real_estate.floorplanscommercialestate",
+    "pk": 1,
+    "fields": {
+        "alt_attr": "",
+        "image": "images/realestate/2020/5/25/91818-145720-commerce-estate-image_700x500.jpg",
+        "image_thumb": "images/realestate/2020/5/25/91818-145720-commerce-estate-image_420x300.jpg",
+        "commercial_estate": 1
+    }
+},
+{
+    "model": "commercial_real_estate.floorplanscommercialestate",
+    "pk": 2,
+    "fields": {
+        "alt_attr": "\u043f\u043b\u0430\u043d\u0438\u0440\u043e\u0432\u043a\u0430",
+        "image": "images/realestate/2020/5/25/91851-407361-planirovka_1257x500.jpg",
+        "image_thumb": "images/realestate/2020/5/25/91851-407361-planirovka_754x300.jpg",
+        "commercial_estate": 1
+    }
+},
+{
+    "model": "commercial_real_estate.floorplanscommercialestate",
+    "pk": 3,
+    "fields": {
+        "alt_attr": "",
+        "image": "",
+        "image_thumb": "",
+        "commercial_estate": 2
+    }
+},
+{
+    "model": "commercial_real_estate.floorplanscommercialestate",
+    "pk": 4,
+    "fields": {
+        "alt_attr": "\u043f\u043b\u0430\u043d\u0438\u0440\u043e\u0432\u043a\u0430",
+        "image": "",
+        "image_thumb": "",
+        "commercial_estate": 4
+    }
+},
+{
+    "model": "commercial_real_estate.floorplanscommercialestate",
+    "pk": 5,
+    "fields": {
+        "alt_attr": "\u043f\u043b\u0430\u043d\u0438\u0440\u043e\u0432\u043a\u0430",
+        "image": "",
+        "image_thumb": "",
+        "commercial_estate": 5
+    }
+},
+{
+    "model": "commercial_real_estate.floorplanscommercialestate",
+    "pk": 6,
+    "fields": {
+        "alt_attr": "\u043f\u043b\u0430\u043d\u0438\u0440\u043e\u0432\u043a\u0430",
+        "image": "",
+        "image_thumb": "",
+        "commercial_estate": 7
+    }
+},
+{
+    "model": "commercial_real_estate.floorplanscommercialestate",
+    "pk": 7,
+    "fields": {
+        "alt_attr": "\u043f\u043b\u0430\u043d\u0438\u0440\u043e\u0432\u043a\u0430",
+        "image": "",
+        "image_thumb": "",
+        "commercial_estate": 8
+    }
+},
+{
+    "model": "geo_location.region",
+    "pk": 1,
+    "fields": {
+        "name": "\u041d\u043e\u0432\u043e\u0441\u0438\u0431\u0438\u0440\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
+        "main_image": "",
+        "alt_attr": "text",
+        "description": ""
+    }
+},
+{
+    "model": "geo_location.region",
+    "pk": 2,
+    "fields": {
+        "name": "\u041a\u0435\u043c\u0435\u0440\u043e\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
+        "main_image": "",
+        "alt_attr": "text",
+        "description": ""
+    }
+},
+{
+    "model": "geo_location.city",
+    "pk": 1,
+    "fields": {
+        "name": "\u0433. \u041d\u043e\u0432\u043e\u0441\u0438\u0431\u0438\u0440\u0441\u043a",
+        "region": 1,
+        "main_image": "",
+        "alt_attr": "text",
+        "longitude": 82.916796,
+        "latitude": 55.031337,
+        "description": ""
+    }
+},
+{
+    "model": "geo_location.city",
+    "pk": 2,
+    "fields": {
+        "name": "\u0433. \u0411\u0435\u0440\u0434\u0441\u043a",
+        "region": 1,
+        "main_image": "",
+        "alt_attr": "text",
+        "longitude": 83.097542,
+        "latitude": 54.74392,
+        "description": ""
+    }
+},
+{
+    "model": "geo_location.city",
+    "pk": 3,
+    "fields": {
+        "name": "\u0440.\u043f. \u041a\u0440\u0430\u0441\u043d\u043e\u043e\u0431\u0441\u043a",
+        "region": 1,
+        "main_image": "",
+        "alt_attr": "text",
+        "longitude": 83.093268,
+        "latitude": 54.857591,
+        "description": ""
+    }
+},
+{
+    "model": "geo_location.city",
+    "pk": 4,
+    "fields": {
+        "name": "\u0440.\u043f. \u041a\u043e\u043b\u044c\u0446\u043e\u0432\u0430",
+        "region": 1,
+        "main_image": "",
+        "alt_attr": "text",
+        "longitude": 83.20937,
+        "latitude": 54.940888,
+        "description": ""
+    }
+},
+{
+    "model": "geo_location.district",
+    "pk": 1,
+    "fields": {
+        "name": "\u0414\u0437\u0435\u0440\u0436\u0438\u043d\u0441\u043a\u0438\u0439",
+        "subname": "\u0414\u0417\u0415",
+        "city": 1,
+        "main_image": "",
+        "alt_attr": "text",
+        "description": ""
+    }
+},
+{
+    "model": "geo_location.district",
+    "pk": 2,
+    "fields": {
+        "name": "\u0416\u0435\u043b\u0435\u0437\u043d\u043e\u0434\u043e\u0440\u043e\u0436\u043d\u044b\u0439",
+        "subname": "\u0416\u0415\u041b",
+        "city": 1,
+        "main_image": "",
+        "alt_attr": "text",
+        "description": ""
+    }
+},
+{
+    "model": "geo_location.district",
+    "pk": 3,
+    "fields": {
+        "name": "\u0417\u0430\u0435\u043b\u044c\u0446\u043e\u0432\u0441\u043a\u0438\u0439",
+        "subname": "\u0417\u041b\u0426",
+        "city": 1,
+        "main_image": "",
+        "alt_attr": "text",
+        "description": ""
+    }
+},
+{
+    "model": "geo_location.district",
+    "pk": 4,
+    "fields": {
+        "name": "\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0441\u043a\u0438\u0439",
+        "subname": "\u041a\u041b\u041d",
+        "city": 1,
+        "main_image": "",
+        "alt_attr": "text",
+        "description": ""
+    }
+},
+{
+    "model": "geo_location.district",
+    "pk": 5,
+    "fields": {
+        "name": "\u041a\u0438\u0440\u043e\u0432\u0441\u043a\u0438\u0439",
+        "subname": "\u041a\u0418\u0420",
+        "city": 1,
+        "main_image": "",
+        "alt_attr": "text",
+        "description": ""
+    }
+},
+{
+    "model": "geo_location.district",
+    "pk": 6,
+    "fields": {
+        "name": "\u041b\u0435\u043d\u0438\u043d\u0441\u043a\u0438\u0439",
+        "subname": "\u041b\u0415\u041d",
+        "city": 1,
+        "main_image": "",
+        "alt_attr": "text",
+        "description": ""
+    }
+},
+{
+    "model": "geo_location.district",
+    "pk": 7,
+    "fields": {
+        "name": "\u041e\u043a\u0442\u044f\u0431\u0440\u044c\u0441\u043a\u0438\u0439",
+        "subname": "\u041e\u041a\u0422",
+        "city": 1,
+        "main_image": "",
+        "alt_attr": "text",
+        "description": ""
+    }
+},
+{
+    "model": "geo_location.district",
+    "pk": 8,
+    "fields": {
+        "name": "\u041f\u0435\u0440\u0432\u043e\u043c\u0430\u0439\u0441\u043a\u0438\u0439",
+        "subname": "\u041f\u0420\u0412",
+        "city": 1,
+        "main_image": "",
+        "alt_attr": "text",
+        "description": ""
+    }
+},
+{
+    "model": "geo_location.district",
+    "pk": 9,
+    "fields": {
+        "name": "\u0421\u043e\u0432\u0435\u0442\u0441\u043a\u0438\u0439",
+        "subname": "\u0421\u041e\u0412",
+        "city": 1,
+        "main_image": "",
+        "alt_attr": "text",
+        "description": ""
+    }
+},
+{
+    "model": "geo_location.district",
+    "pk": 10,
+    "fields": {
+        "name": "\u0426\u0435\u043d\u0442\u0440\u0430\u043b\u044c\u043d\u044b\u0439",
+        "subname": "\u0426\u0415\u041d",
+        "city": 1,
+        "main_image": "",
+        "alt_attr": "text",
+        "description": ""
+    }
+},
+{
+    "model": "geo_location.district",
+    "pk": 11,
+    "fields": {
+        "name": "\u041d\u043e\u0432\u044b\u0439 \u043f\u043e\u0441.",
+        "subname": "\u041d\u041e\u0412 \u043f\u043e\u0441.",
+        "city": 2,
+        "main_image": "",
+        "alt_attr": "",
+        "description": ""
+    }
+},
+{
+    "model": "geo_location.street",
+    "pk": 1,
+    "fields": {
+        "name": "\u0411\u043e\u043b\u044c\u0448\u0435\u0432\u0438\u0441\u0442\u0441\u043a\u0430\u044f"
+    }
+},
+{
+    "model": "geo_location.street",
+    "pk": 2,
+    "fields": {
+        "name": "\u041e\u043a\u0442\u044f\u0431\u0440\u044c\u0441\u043a\u0430\u044f"
+    }
+},
+{
+    "model": "geo_location.street",
+    "pk": 3,
+    "fields": {
+        "name": "\u0414\u0438\u043c\u0438\u0442\u0440\u043e\u0432\u0430 \u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442"
+    }
+},
+{
+    "model": "geo_location.street",
+    "pk": 4,
+    "fields": {
+        "name": "\u0421\u043e\u0432\u0435\u0442\u0441\u043a\u0430\u044f"
+    }
+},
+{
+    "model": "geo_location.street",
+    "pk": 5,
+    "fields": {
+        "name": "\u041a\u0440\u0430\u0441\u043d\u044b\u0439 \u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442"
+    }
+},
+{
+    "model": "geo_location.street",
+    "pk": 6,
+    "fields": {
+        "name": "\u041a\u0438\u0440\u043e\u0432\u0430"
+    }
+},
+{
+    "model": "geo_location.numhouse",
+    "pk": 1,
+    "fields": {
+        "name": "121"
+    }
+},
+{
+    "model": "geo_location.numhouse",
+    "pk": 2,
+    "fields": {
+        "name": "23"
+    }
+},
+{
+    "model": "geo_location.numhouse",
+    "pk": 3,
+    "fields": {
+        "name": "7"
+    }
+},
+{
+    "model": "geo_location.numhouse",
+    "pk": 4,
+    "fields": {
+        "name": "45"
+    }
+},
+{
+    "model": "geo_location.numhouse",
+    "pk": 5,
+    "fields": {
+        "name": "122"
+    }
+},
+{
+    "model": "geo_location.numhouse",
+    "pk": 6,
+    "fields": {
+        "name": "29"
+    }
+},
+{
+    "model": "geo_location.numhouse",
+    "pk": 7,
+    "fields": {
+        "name": "24"
+    }
+},
+{
+    "model": "geo_location.address",
+    "pk": 1,
+    "fields": {
+        "name": "\u041e\u043a\u0442\u044f\u0431\u0440\u044c\u0441\u043a\u0430\u044f 23",
+        "street": 2,
+        "numhouse": 2
+    }
+},
+{
+    "model": "geo_location.address",
+    "pk": 5,
+    "fields": {
+        "name": "\u0411\u043e\u043b\u044c\u0448\u0435\u0432\u0438\u0441\u0442\u0441\u043a\u0430\u044f 23",
+        "street": 1,
+        "numhouse": 2
+    }
+},
+{
+    "model": "geo_location.address",
+    "pk": 6,
+    "fields": {
+        "name": "\u041e\u043a\u0442\u044f\u0431\u0440\u044c\u0441\u043a\u0430\u044f 121",
+        "street": 2,
+        "numhouse": 1
+    }
+},
+{
+    "model": "geo_location.address",
+    "pk": 7,
+    "fields": {
+        "name": "\u0414\u0438\u043c\u0438\u0442\u0440\u043e\u0432\u0430 \u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 7",
+        "street": 3,
+        "numhouse": 3
+    }
+},
+{
+    "model": "geo_location.address",
+    "pk": 8,
+    "fields": {
+        "name": "\u0421\u043e\u0432\u0435\u0442\u0441\u043a\u0430\u044f 45",
+        "street": 4,
+        "numhouse": 4
+    }
+},
+{
+    "model": "geo_location.address",
+    "pk": 9,
+    "fields": {
+        "name": "\u0421\u043e\u0432\u0435\u0442\u0441\u043a\u0430\u044f 121",
+        "street": 4,
+        "numhouse": 1
+    }
+},
+{
+    "model": "geo_location.address",
+    "pk": 10,
+    "fields": {
+        "name": "\u041a\u0440\u0430\u0441\u043d\u044b\u0439 \u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 122",
+        "street": 5,
+        "numhouse": 5
+    }
+},
+{
+    "model": "geo_location.address",
+    "pk": 11,
+    "fields": {
+        "name": "\u041a\u0438\u0440\u043e\u0432\u0430 24",
+        "street": 6,
+        "numhouse": 7
+    }
+},
+{
+    "model": "residential_real_estate.deadline",
+    "pk": 1,
+    "fields": {
+        "full_date": "I 2020",
+        "only_year": 2020,
+        "only_quarter": 1
+    }
+},
+{
+    "model": "residential_real_estate.deadline",
+    "pk": 2,
+    "fields": {
+        "full_date": "II 2020",
+        "only_year": 2020,
+        "only_quarter": 2
+    }
+},
+{
+    "model": "residential_real_estate.deadline",
+    "pk": 3,
+    "fields": {
+        "full_date": "III 2020",
+        "only_year": 2020,
+        "only_quarter": 3
+    }
+},
+{
+    "model": "residential_real_estate.deadline",
+    "pk": 4,
+    "fields": {
+        "full_date": "IV 2020",
+        "only_year": 2020,
+        "only_quarter": 4
+    }
+},
+{
+    "model": "residential_real_estate.deadline",
+    "pk": 5,
+    "fields": {
+        "full_date": "I 2021",
+        "only_year": 2021,
+        "only_quarter": 1
+    }
+},
+{
+    "model": "residential_real_estate.deadline",
+    "pk": 6,
+    "fields": {
+        "full_date": "II 2021",
+        "only_year": 2021,
+        "only_quarter": 2
+    }
+},
+{
+    "model": "residential_real_estate.deadline",
+    "pk": 7,
+    "fields": {
+        "full_date": "III 2021",
+        "only_year": 2021,
+        "only_quarter": 3
+    }
+},
+{
+    "model": "residential_real_estate.deadline",
+    "pk": 8,
+    "fields": {
+        "full_date": "IV 2021",
+        "only_year": 2021,
+        "only_quarter": 4
+    }
+},
+{
+    "model": "residential_real_estate.deadline",
+    "pk": 9,
+    "fields": {
+        "full_date": "I 2022",
+        "only_year": 2022,
+        "only_quarter": 1
+    }
+},
+{
+    "model": "residential_real_estate.deadline",
+    "pk": 10,
+    "fields": {
+        "full_date": "II 2022",
+        "only_year": 2022,
+        "only_quarter": 2
+    }
+},
+{
+    "model": "residential_real_estate.deadline",
+    "pk": 11,
+    "fields": {
+        "full_date": "III 2022",
+        "only_year": 2022,
+        "only_quarter": 3
+    }
+},
+{
+    "model": "residential_real_estate.deadline",
+    "pk": 12,
+    "fields": {
+        "full_date": "IV 2022",
+        "only_year": 2022,
+        "only_quarter": 4
+    }
+},
+{
+    "model": "residential_real_estate.deadline",
+    "pk": 13,
+    "fields": {
+        "full_date": "I 2023",
+        "only_year": 2023,
+        "only_quarter": 1
+    }
+},
+{
+    "model": "residential_real_estate.deadline",
+    "pk": 14,
+    "fields": {
+        "full_date": "II 2023",
+        "only_year": 2023,
+        "only_quarter": 2
+    }
+},
+{
+    "model": "residential_real_estate.deadline",
+    "pk": 15,
+    "fields": {
+        "full_date": "III 2023",
+        "only_year": 2023,
+        "only_quarter": 3
+    }
+},
+{
+    "model": "residential_real_estate.deadline",
+    "pk": 16,
+    "fields": {
+        "full_date": "IV 2023",
+        "only_year": 2023,
+        "only_quarter": 4
+    }
+},
+{
+    "model": "residential_real_estate.deadline",
+    "pk": 17,
+    "fields": {
+        "full_date": "I 2024",
+        "only_year": 2024,
+        "only_quarter": 1
+    }
+},
+{
+    "model": "residential_real_estate.deadline",
+    "pk": 18,
+    "fields": {
+        "full_date": "II 2024",
+        "only_year": 2024,
+        "only_quarter": 2
+    }
+},
+{
+    "model": "residential_real_estate.deadline",
+    "pk": 19,
+    "fields": {
+        "full_date": "III 2024",
+        "only_year": 2024,
+        "only_quarter": 3
+    }
+},
+{
+    "model": "residential_real_estate.deadline",
+    "pk": 20,
+    "fields": {
+        "full_date": "IV 2024",
+        "only_year": 2024,
+        "only_quarter": 4
+    }
+},
+{
+    "model": "residential_real_estate.developer",
+    "pk": 1,
+    "fields": {
+        "name": "\u0421\u0417 \u041a\u0432\u0430\u0434\u0440\u0430\u0442\u043d\u044b\u0439 \u043c\u0435\u0442\u0440",
+        "description": "",
+        "logo_image": ""
+    }
+},
+{
+    "model": "residential_real_estate.classofhousing",
+    "pk": 1,
+    "fields": {
+        "name": "\u0411\u0438\u0437\u043d\u0435\u0441",
+        "description": ""
+    }
+},
+{
+    "model": "residential_real_estate.classofhousing",
+    "pk": 2,
+    "fields": {
+        "name": "\u041a\u043e\u043c\u0444\u043e\u0440\u0442",
+        "description": ""
+    }
+},
+{
+    "model": "residential_real_estate.classofhousing",
+    "pk": 3,
+    "fields": {
+        "name": "\u041a\u043e\u043c\u0444\u043e\u0440\u0442 +",
+        "description": ""
+    }
+},
+{
+    "model": "residential_real_estate.classofhousing",
+    "pk": 4,
+    "fields": {
+        "name": "\u042d\u043a\u043e\u043d\u043e\u043c",
+        "description": ""
+    }
+},
+{
+    "model": "residential_real_estate.classofhousing",
+    "pk": 5,
+    "fields": {
+        "name": "\u042d\u043b\u0438\u0442\u043d\u044b\u0435",
+        "description": ""
+    }
+},
+{
+    "model": "residential_real_estate.floorinbuilding",
+    "pk": 1,
+    "fields": {
+        "num_floor": -4
+    }
+},
+{
+    "model": "residential_real_estate.floorinbuilding",
+    "pk": 2,
+    "fields": {
+        "num_floor": -3
+    }
+},
+{
+    "model": "residential_real_estate.floorinbuilding",
+    "pk": 3,
+    "fields": {
+        "num_floor": -2
+    }
+},
+{
+    "model": "residential_real_estate.floorinbuilding",
+    "pk": 4,
+    "fields": {
+        "num_floor": -1
+    }
+},
+{
+    "model": "residential_real_estate.floorinbuilding",
+    "pk": 5,
+    "fields": {
+        "num_floor": 1
+    }
+},
+{
+    "model": "residential_real_estate.floorinbuilding",
+    "pk": 6,
+    "fields": {
+        "num_floor": 2
+    }
+},
+{
+    "model": "residential_real_estate.floorinbuilding",
+    "pk": 7,
+    "fields": {
+        "num_floor": 3
+    }
+},
+{
+    "model": "residential_real_estate.floorinbuilding",
+    "pk": 8,
+    "fields": {
+        "num_floor": 4
+    }
+},
+{
+    "model": "residential_real_estate.floorinbuilding",
+    "pk": 9,
+    "fields": {
+        "num_floor": 5
+    }
+},
+{
+    "model": "residential_real_estate.floorinbuilding",
+    "pk": 10,
+    "fields": {
+        "num_floor": 6
+    }
+},
+{
+    "model": "residential_real_estate.floorinbuilding",
+    "pk": 11,
+    "fields": {
+        "num_floor": 7
+    }
+},
+{
+    "model": "residential_real_estate.floorinbuilding",
+    "pk": 12,
+    "fields": {
+        "num_floor": 8
+    }
+},
+{
+    "model": "residential_real_estate.floorinbuilding",
+    "pk": 13,
+    "fields": {
+        "num_floor": 9
+    }
+},
+{
+    "model": "residential_real_estate.floorinbuilding",
+    "pk": 14,
+    "fields": {
+        "num_floor": 10
+    }
+},
+{
+    "model": "residential_real_estate.floorinbuilding",
+    "pk": 15,
+    "fields": {
+        "num_floor": 11
+    }
+},
+{
+    "model": "residential_real_estate.floorinbuilding",
+    "pk": 16,
+    "fields": {
+        "num_floor": 12
+    }
+},
+{
+    "model": "residential_real_estate.floorinbuilding",
+    "pk": 17,
+    "fields": {
+        "num_floor": 13
+    }
+},
+{
+    "model": "residential_real_estate.floorinbuilding",
+    "pk": 18,
+    "fields": {
+        "num_floor": 14
+    }
+},
+{
+    "model": "residential_real_estate.floorinbuilding",
+    "pk": 19,
+    "fields": {
+        "num_floor": 15
+    }
+},
+{
+    "model": "residential_real_estate.floorinbuilding",
+    "pk": 20,
+    "fields": {
+        "num_floor": 16
+    }
+},
+{
+    "model": "residential_real_estate.floorinbuilding",
+    "pk": 21,
+    "fields": {
+        "num_floor": 17
+    }
+},
+{
+    "model": "residential_real_estate.floorinbuilding",
+    "pk": 22,
+    "fields": {
+        "num_floor": 18
+    }
+},
+{
+    "model": "residential_real_estate.floorinbuilding",
+    "pk": 23,
+    "fields": {
+        "num_floor": 19
+    }
+},
+{
+    "model": "residential_real_estate.floorinbuilding",
+    "pk": 24,
+    "fields": {
+        "num_floor": 20
+    }
+},
+{
+    "model": "residential_real_estate.floorinbuilding",
+    "pk": 25,
+    "fields": {
+        "num_floor": 21
+    }
+},
+{
+    "model": "residential_real_estate.floorinbuilding",
+    "pk": 26,
+    "fields": {
+        "num_floor": 22
+    }
+},
+{
+    "model": "residential_real_estate.floorinbuilding",
+    "pk": 27,
+    "fields": {
+        "num_floor": 23
+    }
+},
+{
+    "model": "residential_real_estate.floorinbuilding",
+    "pk": 28,
+    "fields": {
+        "num_floor": 24
+    }
+},
+{
+    "model": "residential_real_estate.floorinbuilding",
+    "pk": 29,
+    "fields": {
+        "num_floor": 25
+    }
+},
+{
+    "model": "residential_real_estate.floorinbuilding",
+    "pk": 30,
+    "fields": {
+        "num_floor": 26
+    }
+},
+{
+    "model": "residential_real_estate.floorinbuilding",
+    "pk": 31,
+    "fields": {
+        "num_floor": 27
+    }
+},
+{
+    "model": "residential_real_estate.floorinbuilding",
+    "pk": 32,
+    "fields": {
+        "num_floor": 28
+    }
+},
+{
+    "model": "residential_real_estate.floorinbuilding",
+    "pk": 33,
+    "fields": {
+        "num_floor": 29
+    }
+},
+{
+    "model": "residential_real_estate.floorinbuilding",
+    "pk": 34,
+    "fields": {
+        "num_floor": 30
+    }
+},
+{
+    "model": "residential_real_estate.namesofmetrostations",
+    "pk": 1,
+    "fields": {
+        "name": "\u041f\u043b\u043e\u0449\u0430\u0434\u044c \u041b\u0435\u043d\u0438\u043d\u0430",
+        "distance_to_center": "108 \u043c \u0434\u043e \u0446\u0435\u043d\u0442\u0440\u0430 \u0433\u043e\u0440\u043e\u0434\u0430",
+        "sub_text_distance_to_center": null,
+        "description": ""
+    }
+},
+{
+    "model": "residential_real_estate.namesofmetrostations",
+    "pk": 2,
+    "fields": {
+        "name": "\u041a\u0440\u0430\u0441\u043d\u044b\u0439 \u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442",
+        "distance_to_center": "1.24 \u043a\u043c \u0434\u043e \u0446\u0435\u043d\u0442\u0440\u0430 \u0433\u043e\u0440\u043e\u0434\u0430",
+        "sub_text_distance_to_center": null,
+        "description": ""
+    }
+},
+{
+    "model": "residential_real_estate.namesofmetrostations",
+    "pk": 3,
+    "fields": {
+        "name": "\u041e\u043a\u0442\u044f\u0431\u0440\u044c\u0441\u043a\u0430\u044f",
+        "distance_to_center": "1.79 \u043a\u043c \u0434\u043e \u0446\u0435\u043d\u0442\u0440\u0430 \u0433\u043e\u0440\u043e\u0434\u0430",
+        "sub_text_distance_to_center": null,
+        "description": ""
+    }
+},
+{
+    "model": "residential_real_estate.namesofmetrostations",
+    "pk": 4,
+    "fields": {
+        "name": "\u0421\u0438\u0431\u0438\u0440\u0441\u043a\u0430\u044f",
+        "distance_to_center": "1.36 \u043a\u043c \u0434\u043e \u0446\u0435\u043d\u0442\u0440\u0430 \u0433\u043e\u0440\u043e\u0434\u0430",
+        "sub_text_distance_to_center": null,
+        "description": ""
+    }
+},
+{
+    "model": "residential_real_estate.namesofmetrostations",
+    "pk": 5,
+    "fields": {
+        "name": "\u0417\u0430\u0435\u043b\u044c\u0446\u043e\u0432\u0441\u043a\u0430\u044f",
+        "distance_to_center": "3.25 \u043a\u043c \u0434\u043e \u0446\u0435\u043d\u0442\u0440\u0430 \u0433\u043e\u0440\u043e\u0434\u0430",
+        "sub_text_distance_to_center": null,
+        "description": ""
+    }
+},
+{
+    "model": "residential_real_estate.namesofmetrostations",
+    "pk": 6,
+    "fields": {
+        "name": "\u041c\u0430\u0440\u0448\u0430\u043b\u0430 \u041f\u043e\u043a\u0440\u044b\u0448\u043a\u0438\u043d\u0430",
+        "distance_to_center": "1.84 \u043a\u043c \u0434\u043e \u0446\u0435\u043d\u0442\u0440\u0430 \u0433\u043e\u0440\u043e\u0434\u0430",
+        "sub_text_distance_to_center": null,
+        "description": ""
+    }
+},
+{
+    "model": "residential_real_estate.namesofmetrostations",
+    "pk": 7,
+    "fields": {
+        "name": "\u0413\u0430\u0433\u0430\u0440\u0438\u043d\u0441\u043a\u0430\u044f",
+        "distance_to_center": "2.36 \u043a\u043c \u0434\u043e \u0446\u0435\u043d\u0442\u0440\u0430 \u0433\u043e\u0440\u043e\u0434\u0430",
+        "sub_text_distance_to_center": null,
+        "description": ""
+    }
+},
+{
+    "model": "residential_real_estate.namesofmetrostations",
+    "pk": 8,
+    "fields": {
+        "name": "\u0411\u0435\u0440\u0435\u0437\u043e\u0432\u0430\u044f \u0420\u043e\u0449\u0430",
+        "distance_to_center": "2.67 \u043a\u043c \u0434\u043e \u0446\u0435\u043d\u0442\u0440\u0430 \u0433\u043e\u0440\u043e\u0434\u0430",
+        "sub_text_distance_to_center": null,
+        "description": ""
+    }
+},
+{
+    "model": "residential_real_estate.namesofmetrostations",
+    "pk": 9,
+    "fields": {
+        "name": "\u041f\u043b\u043e\u0449\u0430\u0434\u044c \u0413\u0430\u0440\u0438\u043d\u0430-\u041c\u0438\u0445\u0430\u0439\u043b\u043e\u0432\u0441\u043a\u043e\u0433\u043e",
+        "distance_to_center": "1.48 \u043a\u043c \u0434\u043e \u0446\u0435\u043d\u0442\u0440\u0430 \u0433\u043e\u0440\u043e\u0434\u0430",
+        "sub_text_distance_to_center": null,
+        "description": ""
+    }
+},
+{
+    "model": "residential_real_estate.namesofmetrostations",
+    "pk": 10,
+    "fields": {
+        "name": "\u0420\u0435\u0447\u043d\u043e\u0439 \u0432\u043e\u043a\u0437\u0430\u043b",
+        "distance_to_center": "2.67 \u043a\u043c \u0434\u043e \u0446\u0435\u043d\u0442\u0440\u0430 \u0433\u043e\u0440\u043e\u0434\u0430",
+        "sub_text_distance_to_center": null,
+        "description": ""
+    }
+},
+{
+    "model": "residential_real_estate.namesofmetrostations",
+    "pk": 11,
+    "fields": {
+        "name": "\u0417\u043e\u043b\u043e\u0442\u0430\u044f \u041d\u0438\u0432\u0430",
+        "distance_to_center": "3.73 \u043a\u043c \u0434\u043e \u0446\u0435\u043d\u0442\u0440\u0430 \u0433\u043e\u0440\u043e\u0434\u0430",
+        "sub_text_distance_to_center": null,
+        "description": ""
+    }
+},
+{
+    "model": "residential_real_estate.namesofmetrostations",
+    "pk": 12,
+    "fields": {
+        "name": "\u0421\u0442\u0443\u0434\u0435\u043d\u0447\u0435\u0441\u043a\u0430\u044f",
+        "distance_to_center": "4.63 \u043a\u043c \u0434\u043e \u0446\u0435\u043d\u0442\u0440\u0430 \u0433\u043e\u0440\u043e\u0434\u0430",
+        "sub_text_distance_to_center": null,
+        "description": ""
+    }
+},
+{
+    "model": "residential_real_estate.namesofmetrostations",
+    "pk": 13,
+    "fields": {
+        "name": "\u041f\u043b\u043e\u0449\u0430\u0434\u044c \u041c\u0430\u0440\u043a\u0441\u0430",
+        "distance_to_center": "5.49 \u043a\u043c \u0434\u043e \u0446\u0435\u043d\u0442\u0440\u0430 \u0433\u043e\u0440\u043e\u0434\u0430",
+        "sub_text_distance_to_center": null,
+        "description": ""
+    }
+},
+{
+    "model": "residential_real_estate.materialwallsofhouse",
+    "pk": 1,
+    "fields": {
+        "name": "\u043c\u043e\u043d\u043e\u043b\u0438\u0442\u043d\u044b\u0439 \u0436\u0435\u043b\u0435\u0437\u043e\u0431\u0435\u0442\u043e\u043d\u043d\u044b\u0439 \u0431\u0435\u0437\u0440\u0438\u0433\u0435\u043b\u044c\u043d\u044b\u0439 \u043a\u0430\u0440\u043a\u0430\u0441",
+        "description": ""
+    }
+},
+{
+    "model": "residential_real_estate.materialwallsofhouse",
+    "pk": 2,
+    "fields": {
+        "name": "\u043a\u0438\u0440\u043f\u0438\u0447",
+        "description": ""
+    }
+},
+{
+    "model": "residential_real_estate.apartmentdecoration",
+    "pk": 1,
+    "fields": {
+        "name": "\u0427\u0438\u0441\u0442\u043e\u0432\u0430\u044f",
+        "description": ""
+    }
+},
+{
+    "model": "residential_real_estate.apartmentdecoration",
+    "pk": 2,
+    "fields": {
+        "name": "\u0427\u0435\u0440\u043d\u043e\u0432\u0430\u044f",
+        "description": ""
+    }
+},
+{
+    "model": "residential_real_estate.apartmentdecoration",
+    "pk": 3,
+    "fields": {
+        "name": "\u041f\u043e\u0434 \u043a\u043b\u044e\u0447",
+        "description": ""
+    }
+},
+{
+    "model": "residential_real_estate.infrastructure",
+    "pk": 1,
+    "fields": {
+        "name": "\u041e\u0433\u0440\u0430\u0436\u0434\u0435\u043d\u043d\u0430\u044f \u0442\u0435\u0440\u0440\u0438\u0442\u043e\u0440\u0438\u044f",
+        "icon": "",
+        "description": ""
+    }
+},
+{
+    "model": "residential_real_estate.infrastructure",
+    "pk": 2,
+    "fields": {
+        "name": "\u0412\u0438\u0434\u0435\u043e\u043a\u0430\u043c\u0435\u0440\u044b",
+        "icon": "",
+        "description": ""
+    }
+},
+{
+    "model": "residential_real_estate.infrastructure",
+    "pk": 3,
+    "fields": {
+        "name": "\u0427\u0430\u0441\u0442\u043d\u0430\u044f \u043e\u0445\u0440\u0430\u043d\u0430",
+        "icon": "",
+        "description": ""
+    }
+},
+{
+    "model": "residential_real_estate.infrastructure",
+    "pk": 4,
+    "fields": {
+        "name": "\u041a\u043e\u043d\u0441\u044c\u0435\u0440\u0436",
+        "icon": "",
+        "description": ""
+    }
+},
+{
+    "model": "residential_real_estate.numberofrooms",
+    "pk": 1,
+    "fields": {
+        "name": "1\u0421",
+        "additional_name": "",
+        "description": ""
+    }
+},
+{
+    "model": "residential_real_estate.numberofrooms",
+    "pk": 2,
+    "fields": {
+        "name": "1\u041a",
+        "additional_name": "",
+        "description": ""
+    }
+},
+{
+    "model": "residential_real_estate.numberofrooms",
+    "pk": 3,
+    "fields": {
+        "name": "2\u0421",
+        "additional_name": "",
+        "description": ""
+    }
+},
+{
+    "model": "residential_real_estate.numberofrooms",
+    "pk": 4,
+    "fields": {
+        "name": "2\u041a",
+        "additional_name": "",
+        "description": ""
+    }
+},
+{
+    "model": "residential_real_estate.numberofrooms",
+    "pk": 5,
+    "fields": {
+        "name": "3\u0421",
+        "additional_name": "",
+        "description": ""
+    }
+},
+{
+    "model": "residential_real_estate.numberofrooms",
+    "pk": 6,
+    "fields": {
+        "name": "3\u041a",
+        "additional_name": "",
+        "description": ""
+    }
+},
+{
+    "model": "residential_real_estate.numberofrooms",
+    "pk": 7,
+    "fields": {
+        "name": "4\u0421",
+        "additional_name": "",
+        "description": ""
+    }
+},
+{
+    "model": "residential_real_estate.numberofrooms",
+    "pk": 8,
+    "fields": {
+        "name": "4\u041a+",
+        "additional_name": "",
+        "description": ""
+    }
+},
+{
+    "model": "residential_real_estate.residentialcomplex",
+    "pk": 1,
+    "fields": {
+        "is_active": true,
+        "is_active_load_data": false,
+        "name": "PRIME HOUSE",
+        "url_name": "zhk-prime-house",
+        "logo_image": "",
+        "developer": 1,
+        "class_of_housing": 1,
+        "region": 1,
+        "city": 1,
+        "district": 2,
+        "one_or_many_buildings": false,
+        "number_of_storeys": 26,
+        "min_storeys": null,
+        "max_storeys": null,
+        "house_completed": true,
+        "main_image": "images/realestate/2020/5/25/93849-5476-prime-house_769x500.jpg",
+        "alt_attr": "\u0416\u041a PRIME HOUSE",
+        "main_image_thumb": "images/realestate/2020/5/25/93849-5476-prime-house_461x300.jpg",
+        "longitude": 84.5345543,
+        "latitude": 54.3453535,
+        "description": "\u0423\u043c\u0435\u0442\u044c \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u043c\u043e\u0434\u043d\u043e. \u0415\u0441\u043b\u0438 \u0440\u0430\u043d\u044c\u0448\u0435 \u043d\u0430\u0434 \u0430\u0439\u0442\u0438\u0448\u043d\u0438\u043a\u0430\u043c\u0438 \u0432 \u043e\u0441\u043d\u043e\u0432\u043d\u043e\u043c \u043f\u043e\u0434\u0442\u0440\u0443\u043d\u0438\u0432\u0430\u043b\u0438 \u0438 \u043d\u0430\u0437\u044b\u0432\u0430\u043b\u0438 \u043b\u0435\u043d\u0442\u044f\u044f\u043c\u0438, \u0442\u043e \u0441\u0435\u0439\u0447\u0430\u0441 \u0432\u0441\u0435 \u0430\u043a\u0442\u0438\u0432\u043d\u043e \u0445\u043e\u0442\u044f\u0442 \u0438\u043c\u0438 \u0441\u0442\u0430\u0442\u044c. \u041a\u0430\u0436\u0435\u0442\u0441\u044f, \u0447\u0442\u043e \u043a\u043e\u0434\u0438\u043d\u0433 \u2014 \u044d\u0442\u043e \u0431\u0438\u043b\u0435\u0442 \u0432 \u043b\u0443\u0447\u0448\u0443\u044e \u0436\u0438\u0437\u043d\u044c, \u0433\u0434\u0435 \u043c\u043e\u0436\u043d\u043e \u0440\u0430\u0431\u043e\u0442\u0430\u0442\u044c \u043e\u0442\u043a\u0443\u0434\u0430 \u0443\u0433\u043e\u0434\u043d\u043e \u0438 \u043d\u0435 \u043f\u0435\u0440\u0435\u0436\u0438\u0432\u0430\u0442\u044c \u043e \u0434\u0435\u043d\u044c\u0433\u0430\u0445.\r\n\r\n\u0427\u0442\u043e\u0431\u044b \u0440\u0430\u0431\u043e\u0442\u0430\u0442\u044c \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0441\u0442\u043e\u043c, \u043d\u0443\u0436\u043d\u043e \u0443\u043c\u0435\u0442\u044c \u043f\u043e\u0434\u043e\u043b\u0433\u0443 \u043a\u043e\u0432\u044b\u0440\u044f\u0442\u044c\u0441\u044f \u0432 \u043a\u043e\u0434\u0435 \u0438 \u043f\u043e\u0441\u0442\u043e\u044f\u043d\u043d\u043e \u0440\u0435\u0448\u0430\u0442\u044c \u0437\u0430\u0434\u0430\u0447\u0438, \u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u0434\u043e \u044d\u0442\u043e\u0433\u043e \u043d\u0438\u043a\u043e\u0433\u0434\u0430 \u043d\u0435 \u043f\u0440\u0438\u0445\u043e\u0434\u0438\u043b\u043e\u0441\u044c \u0434\u0435\u043b\u0430\u0442\u044c. \u041a\u0430\u043a \u043f\u043e\u043d\u044f\u0442\u044c, \u0447\u0442\u043e \u0442\u0430\u043a\u0430\u044f \u0440\u0430\u0431\u043e\u0442\u0430 \u2014 \u044d\u0442\u043e \u0438\u043c\u0435\u043d\u043d\u043e \u0442\u043e, \u0447\u0442\u043e \u0432\u0430\u043c \u043d\u0443\u0436\u043d\u043e, \u0438 \u043d\u0435 \u0440\u0430\u0437\u043e\u0447\u0430\u0440\u043e\u0432\u0430\u0442\u044c\u0441\u044f \u0432 \u043d\u0435\u0439, \u043a\u043e\u0433\u0434\u0430 \u043f\u043e\u0442\u0440\u0430\u0442\u0438\u0448\u044c \u043a\u0443\u0447\u0443 \u0432\u0440\u0435\u043c\u0435\u043d\u0438 \u043d\u0430 \u043f\u043e\u0434\u0433\u043e\u0442\u043e\u0432\u043a\u0443?",
+        "distance_to_metro": 500,
+        "site_developer": null,
+        "is_visible_video": false,
+        "address": [
+            7,
+            1
+        ],
+        "deadline": [
+            3,
+            4
+        ],
+        "metro_stations": [
+            3,
+            10
+        ],
+        "infrastructure": [
+            4,
+            1
+        ],
+        "material_walls": [
+            1
+        ],
+        "apart_decoration": [
+            1
+        ]
+    }
+}
+]

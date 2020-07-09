@@ -7,7 +7,7 @@ from slugify import slugify  # тут используется awesome-slugify
 from PIL import Image  # для обработки изображения нам нужен pillow
 
 from project import settings
-from geo_location.models import Region, City, District, Address
+from geo_location.models import Region, City, District, Address, NumHouse, Street
 from residential_real_estate.models import FloorInBuilding, ResidentialComplex, NamesOfMetroStations
 
 User = settings.AUTH_USER_MODEL
@@ -223,13 +223,27 @@ class CommercialEstate(models.Model):
                                  null=True,
                                  blank=True)
     # address = models.CharField(max_length=150, default=None, blank=True, verbose_name='Адрес')
-    address = models.ForeignKey(Address,
-                                on_delete=models.SET_NULL,
-                                verbose_name='Адрес',
-                                related_name='comestate_address',
-                                default=None,
-                                null=True,
-                                blank=False)
+    # address = models.ForeignKey(Address,
+    #                             on_delete=models.SET_NULL,
+    #                             verbose_name='Адрес',
+    #                             related_name='comestate_address',
+    #                             default=None,
+    #                             null=True,
+    #                             blank=False)
+    street = models.ForeignKey(Street,
+                               on_delete=models.SET_NULL,
+                               verbose_name='Улица',
+                               related_name='comestate_street',
+                               default=None,
+                               null=True,
+                               blank=False)
+    num_house = models.ForeignKey(NumHouse,
+                                  on_delete=models.SET_NULL,
+                                  verbose_name='Номер дома/строения/корпус',
+                                  related_name='comestate_numhouse',
+                                  default=None,
+                                  null=True,
+                                  blank=False)
 
     distance_to_metro = models.IntegerField(db_index=True, null=True, blank=True, verbose_name='Растояние до метро, м')
     metro_stations = models.ManyToManyField(NamesOfMetroStations,
@@ -376,7 +390,7 @@ class CommercialEstate(models.Model):
             self.__old_main_image_thumb = ''
 
     def __str__(self):
-        return f'{self.address}'
+        return f'{self.street} {self.num_house}'
 
     def get_thumb_main_image_url(self):
         return settings.MEDIA_URL + self.main_image_thumb

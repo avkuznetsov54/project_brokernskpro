@@ -35,7 +35,7 @@ class CommerceListPagination(PageNumberPagination):
 class CommercialEstateListView(generics.ListAPIView):
     serializer_class = CommercialEstateListSerializer
     queryset = CommercialEstate.objects.filter(is_active=True) \
-        .select_related('region', 'city', 'district', 'address', 'business_center', 'residential_complex') \
+        .select_related('region', 'city', 'district', 'street', 'num_house', 'business_center', 'residential_complex') \
         .prefetch_related('metro_stations', 'cooker_hood', 'fixed_agent', 'floor', 'relative_location',
                           'type_commercial_estate', 'business_category', 'communication_systems', 'type_entrance',
                           'finishing_property', 'purchase_method') \
@@ -213,7 +213,7 @@ class CommercialEstateDetailView(APIView):
 
     def get(self, request, pk):
         premises = CommercialEstate.objects \
-            .select_related('region', 'city', 'district', 'address', 'business_center', 'residential_complex') \
+            .select_related('region', 'city', 'district', 'street', 'num_house', 'business_center', 'residential_complex') \
             .get(id=pk)
 
         serializer = CommercialEstateDetailSerializer(premises)

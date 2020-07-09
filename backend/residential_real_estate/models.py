@@ -9,7 +9,7 @@ from slugify import slugify  # тут используется awesome-slugify
 from PIL import Image  # для обработки изображения нам нужен pillow
 
 from project import settings
-from geo_location.models import Region, City, District, Address
+from geo_location.models import Region, City, District, Address, NumHouse, Street
 
 
 # ф-ция генерит путь для загружаемого изображения
@@ -265,11 +265,25 @@ class ResidentialComplex(models.Model):
                                  default=None,
                                  null=True,
                                  blank=True)
-    address = models.ManyToManyField(Address,
-                                     verbose_name='Адрес',
-                                     related_name='rescomplex_address',
-                                     default=None,
-                                     blank=True)
+    # address = models.ManyToManyField(Address,
+    #                                  verbose_name='Адрес',
+    #                                  related_name='rescomplex_address',
+    #                                  default=None,
+    #                                  blank=True)
+    street = models.ForeignKey(Street,
+                               on_delete=models.SET_NULL,
+                               verbose_name='Улица',
+                               related_name='rescomplex_street',
+                               default=None,
+                               null=True,
+                               blank=False)
+    num_house = models.ForeignKey(NumHouse,
+                                  on_delete=models.SET_NULL,
+                                  verbose_name='Номер дома/строения/корпус',
+                                  related_name='rescomplex_numhouse',
+                                  default=None,
+                                  null=True,
+                                  blank=False)
 
     one_or_many_buildings = models.BooleanField(default=False, verbose_name='В ЖК несколько строений')
 
