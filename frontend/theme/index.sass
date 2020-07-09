@@ -1,0 +1,132 @@
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box!important
+
+html, body
+  margin: 0
+  padding: 0
+  height: 100%
+  font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,SimSun,sans-serif
+  font-weight: 400
+  //background: #f2f4f6
+  --swiper-theme-color: none
+  user-select: none
+
+.bg-color-light-gray
+  background: #f2f4f6
+
+.text-center
+  text-align: center
+.text-right
+  text-align: right
+
+.hidden
+  display: none
+
+//// BEGIN Animation pass between pages //
+//
+//.page-enter-active, .page-leave-active
+//  transition: opacity .4s
+//
+//.page-enter, .page-leave-active
+//  opacity: 0
+//
+//// END Animation //
+
+.fz-12
+  font-size: 12px
+
+.mt-3
+  margin-top: 30px
+.mb-2
+  margin-bottom: 20px
+.mb-25
+  margin-bottom: 25px
+.mb-3
+  margin-bottom: 30px
+
+.my-1
+  margin: 10px 0
+.my-20
+  margin: 20px 0
+.my-3
+  margin: 30px 0
+.my-40
+  margin-top: 40px
+  margin-bottom: 40px
+
+.mx-auto
+  margin-left: auto
+  margin-right: auto
+
+.ivu-col
+  padding-left: 8px
+  padding-right: 8px
+
+// Fotorama //
+.fotorama .fotorama__nav--thumbs .fotorama__nav__frame
+  margin-right: 2px !important
+.fotorama__thumb-border
+  width: 62px !important
+// END Fotorama //
+
+
+.cust-select-order-commerce-page
+  width: auto
+  padding-right: 18px
+  border-radius: 4px
+  .ivu-select-selection
+    border: none !important
+    box-shadow: none !important
+    background-color: rgba(255, 255, 255, 0)
+  .ivu-icon.ivu-icon-ios-arrow-down.ivu-select-arrow
+    right: -10px
+  //  display: none
+  .ivu-select-head-with-prefix.ivu-select-selected-value
+    padding-right: 10px
+  &:hover
+    background: #EDEFF0
+.cust-select-order-commerce-page.ivu-select-visible
+  background: #EDEFF0
+
+@media only screen and (max-width: 576px)
+  .container
+    width: 100%
+  .ivu-row
+    margin-left: 0!important
+    margin-right: 0!important
+    .ivu-col
+      margin-left: 0!important
+      margin-right: 0!important
+
+
+@media only screen and (min-width: 576px) and (max-width: 768px)
+  .container
+    width: 576px
+    margin-left: auto
+    margin-right: auto
+
+@media only screen and (min-width: 768px) and (max-width: 992px)
+  .container
+    width: 768px
+    margin-left: auto
+    margin-right: auto
+
+@media only screen and (min-width: 992px) and (max-width: 1200px)
+  .container
+    width: 992px
+    margin-left: auto
+    margin-right: auto
+
+@media only screen and (min-width: 1200px) and (max-width: 1600px)
+  .container
+    width: 1200px
+    margin-left: auto
+    margin-right: auto
+
+@media only screen and (min-width: 1600px)
+  .container
+    width: 1200px
+    margin-left: auto
+    margin-right: auto

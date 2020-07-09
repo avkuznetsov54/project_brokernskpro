@@ -1,0 +1,1 @@
+default_app_config = 'residential_real_estate.apps.ResidentialRealEstateConfig'
